@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Points</title>
+  <link rel="stylesheet" href="/style.css"  />
+</head>
+<body>
+<div class="container">
+  <div class="points-help" id="points-help">
+    <span class="help-text">How to get points</span>
+    <span class="help-icon">?</span>
+  </div>
+
+  <div id="info-popup-overlay" class="hidden">
+    <div class="info-popup">
+      <h4>How to get more points</h4>
+      <ul class="task-list">
+        <li class="get-points">💬 Good morning text <span class="count">(1 pts)</span></li>
+        <li class="get-points">🚶‍♀️ Daily walk <span class="count">(1 pts)</span></li>
+        <li class="get-points">📷 Picture during walk <span class="count">(1 pts)</span></li>
+        <li class="get-points">😘 Picture of Lolo <span class="count">(2 pts)</span></li>
+        <li class="get-points">🎟️ Perform a task <span class="count">(1 pts)</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stars" id="stars"></div>
+  <div class="points" id="points"></div>
+
+  <h3>Use your points</h3>
+  <div id="rewards-container" class="rewards-grid"></div>
+
+  <div class="summary">
+    Total selected points: <span id="total-selected">0</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
