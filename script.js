@@ -11,7 +11,7 @@ const rewardsData = [
   { name: "👕 1 Item of clothing", cost: 5 },
   { name: "📷 Show me!", cost: 5 },
   { name: "🚀 Rub it", cost: 15 },
-  { name: "💦 Cum for me", cost: 40 }
+  { name: "💦 Cum for me", cost: 41 }
 ];
 
 // --- Stars rendering ---
